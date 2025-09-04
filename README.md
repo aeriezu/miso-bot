@@ -1,36 +1,48 @@
 # miso-bot
-Discord bot made with Python
+A simple **Discord bot** built with **Python** 🐍  
 
-# Commands
-Slash Commands
-- afk
-- color
-get info about a hex code color
-- rolecolor
-get color of a role
-- changerolecolor
-change a color of a role
-- embed
-create an embed through modal menus
-- emoji
-view emoji
-- ping
-get bot's ping
-- hug
-hug a server member
-- slap
-slap a server member
-- membercount
-get server membercount
-- sticky
-set a sticky note to channel (owner only)
-- banner
-get user's banner
-- whois
-get user's info
-- avatar
-get user's avatar
-- profile
-get user's avatar and banner plus status information
-- nowplaying
-shows user's spotify track when spotify activity is on and user is online
+---
+
+## 🚀 Features
+- Fun commands (hug, slap, nowplaying, etc.)
+- Utility tools (AFK, member count, sticky notes)
+- Customization (role colors, embeds, emojis)
+- User info (avatars, banners, Spotify status)
+
+---
+
+## 📜 Commands
+
+### 🎯 General
+- **/ping** — Get the bot's ping  
+- **/membercount** — Display the server's member count  
+
+### 👤 User
+- **/afk** — Set yourself as AFK (adds AFK to your nickname)  
+- **/whois** — Get detailed info about a user  
+- **/avatar** — Get a user's avatar  
+- **/banner** — Get a user's banner  
+- **/profile** — Get a user's avatar, banner, and status info  
+
+### 🎨 Customization
+- **/color** — Get info about a hex color  
+- **/rolecolor** — Get the color of a role  
+- **/changerolecolor** — Change a role's color  
+- **/embed** — Create an embed through a modal menu  
+- **/emoji** — View an emoji  
+
+### 🎉 Fun
+- **/hug** — Hug a server member 🤗  
+- **/slap** — Slap a server member 👋  
+
+### 📌 Utility
+- **/sticky** *(owner only)* — Set a sticky note in a channel  
+
+### 🎵 Music / Activity
+- **/nowplaying** — Shows a user's current Spotify track (if activity is enabled & they’re online)  
+
+---
+
+## 🛠️ Tech Stack
+- **Language:** Python  
+- **Library:** discord.py (slash commands)  
