@@ -1,5 +1,6 @@
 # miso-bot
 A simple **Discord bot** built with **Python** 🐍  
+This bot is no longer in active development  
 
 ---
 
